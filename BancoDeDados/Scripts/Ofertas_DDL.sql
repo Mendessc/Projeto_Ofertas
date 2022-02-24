@@ -5,40 +5,40 @@ use Ofertas;
 
 create table TipoUsuario(
 idTipoUsuario int primary key identity,
-nomeTipoUsuario varchar(20)
+nomeTipoUsuario varchar(20) not null
 );
 go
 
 create table Categoria(
 idCategoria int primary key identity,
-nomeCategoria varchar (100)
+nomeCategoria varchar (100) not null
 );
 go
 
 create table Usuario(
 idUsuario int primary key identity,
 idTipoUsuario int foreign key references TipoUsuario(idTipoUsuario),
-email varchar(256),
-senha varchar(20)
+email varchar(256) not null,
+senha varchar(20) not null
 );
 go
 
 create table Fornecedor(
 idFornecedor int primary key identity,
 idUsuario int foreign key references Usuario(idUsuario),
-nome varchar(100),
-cnpj varchar(14),
-endereco varchar(100),
-telefone varchar(11)
+nome varchar(100) not null,
+cnpj varchar(14) not null,
+endereco varchar(100) not null,
+telefone varchar(11) not null
 );
 go
 
 create table Consumidor(
 idConsumidor int primary key identity,
 idUsuario int foreign key references Usuario(idUsuario),
-nome varchar(100),
-cpf varchar (11),
-tefelone varchar (11)
+nome varchar(100) not null,
+cpf varchar (11) not null,
+tefelone varchar (11) not null
 );
 go 
 
