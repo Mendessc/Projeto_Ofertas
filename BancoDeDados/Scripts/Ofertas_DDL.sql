@@ -61,4 +61,10 @@ idProduto int foreign key references Produto(idProduto)
 );
 go
 
-
+/*drop table Reservas;
+drop table Produto;
+drop table Consumidor;
+drop table Fornecedor;
+drop table Usuario;
+drop table Categoria;
+drop table TipoUsuario;*/
