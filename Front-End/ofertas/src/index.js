@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 //Paginas:
 import Home from './Pages/Home/Home';
+import Login from './Pages/Login/Login';
 
 const permissaoLogado = ({ component: Component }) => (
   <Route
@@ -22,8 +23,9 @@ const permissaoLogado = ({ component: Component }) => (
 const routing = (
   <BrowserRouter>
     <Switch>
-      <Route exact path='/' component={Home} />
+      <Route exact path='/' component={Login} />
       <Route path='/Home' component={Home} />
+      <Route path='/Login' component={Login}/>
     </Switch>
   </BrowserRouter>
 );
