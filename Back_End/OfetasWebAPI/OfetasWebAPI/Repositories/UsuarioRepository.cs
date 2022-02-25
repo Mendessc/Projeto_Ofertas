@@ -25,18 +25,19 @@ namespace OfetasWebAPI.Repositories
 
             if (usuario != null)
             {
-                 if (usuario.Senha == senha)
+                 if (usuario.Senha.Length != 32 && usuario.Senha.Substring(0, 1) != "$")
                 {
                     usuario.Senha = Criptografia.GerarHash(usuario.Senha);
                     ctx.SaveChanges();
                     
-                    
-
                 }
 
                bool confere = Criptografia.Comparar(senha, usuario.Senha);
-                                if (confere)
-                                    return usuario;
+
+                if (confere)
+                {
+                return usuario;
+                }
                 
             }
            

@@ -16,7 +16,7 @@ using System.IO;
 using System.Reflection;
 
 
-namespace Patrimonio
+namespace OfetasWebAPI
 {
     public class Startup
     {   
@@ -84,10 +84,10 @@ namespace Patrimonio
                         ValidateIssuer = true,
                         ValidateAudience = true,
                         ValidateLifetime = true,
-                        IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("Ofertas-chave-autenticacao")),
+                        IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("ofertas-chave-autenticacao")),
                         ClockSkew = TimeSpan.FromMinutes(30),
-                        ValidIssuer = "Ofertas.webAPI",
-                        ValidAudience = "Ofertas.webAPI"
+                        ValidIssuer = "ofertas.webAPI",
+                        ValidAudience = "ofertas.webAPI"
                     };
                 });
 
@@ -124,13 +124,13 @@ namespace Patrimonio
 
             app.UseCors("CorsPolicy");
 
-            app.UseStaticFiles(new StaticFileOptions
+            /*app.UseStaticFiles(new StaticFileOptions
             {
                 FileProvider = new PhysicalFileProvider(
                         Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles")),
                 RequestPath = "/StaticFiles"
             });
-
+            */
             app.UseAuthentication();
 
             app.UseAuthorization();
