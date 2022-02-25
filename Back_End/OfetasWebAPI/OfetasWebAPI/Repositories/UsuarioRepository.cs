@@ -1,20 +1,20 @@
-﻿using Patrimonio.Contexts;
-using Patrimonio.Domains;
-using Patrimonio.Interfaces;
-using Patrimonio.Utils;
+﻿using OfetasWebAPI.Contexts;
+using OfetasWebAPI.Domains;
+using OfetasWebAPI.Interfaces;
+using OfetasWebAPI.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Patrimonio.Repositories
+namespace OfetasWebAPI.Repositories
 {
     public class UsuarioRepository : IUsuarioRepository
     {
 
-        private readonly PatrimonioContext ctx;
+        private readonly OfertasContext ctx;
 
-        public UsuarioRepository(PatrimonioContext appContext)
+        public UsuarioRepository(OfertasContext appContext)
         {
             ctx = appContext;
         }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Patrimonio.Utils
+namespace OfetasWebAPI.Utils
 {
     public static class Criptografia
     {

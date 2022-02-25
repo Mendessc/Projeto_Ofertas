@@ -77,13 +77,13 @@ namespace OfetasWebAPI.Controllers
 
                 };
 
-                var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("patrimonio-chave-autenticacao"));
+                var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("Ofertas-chave-autenticacao"));
 
                 var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
                 var meuToken = new JwtSecurityToken(
-                        issuer: "patrimonio.webAPI",
-                        audience: "patrimonio.webAPI",
+                        issuer: "Ofertas.webAPI",
+                        audience: "Ofertas.webAPI",
                         claims: minhasClaims,
                         expires: DateTime.Now.AddMinutes(30),
                         signingCredentials: creds
