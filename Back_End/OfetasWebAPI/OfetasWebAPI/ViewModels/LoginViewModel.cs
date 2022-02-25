@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Patrimonio.ViewModels
+namespace OfetasWebAPI.ViewModels
 {
     public class LoginViewModel
     {

@@ -65,3 +65,13 @@ C:\Users\51371754802\OneDrive\Documentos\SENAI\DEV\3 Semestre\Projetos\Projeto_O
 C:\Users\51371754802\OneDrive\Documentos\SENAI\DEV\3 Semestre\Projetos\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\ref\OfetasWebAPI.dll
 C:\Users\51371754802\OneDrive\Documentos\SENAI\DEV\3 Semestre\Projetos\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.pdb
 C:\Users\51371754802\OneDrive\Documentos\SENAI\DEV\3 Semestre\Projetos\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.genruntimeconfig.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\ref\OfetasWebAPI.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.pdb

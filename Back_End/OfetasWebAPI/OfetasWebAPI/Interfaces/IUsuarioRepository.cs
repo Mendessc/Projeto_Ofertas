@@ -1,10 +1,10 @@
-﻿using Patrimonio.Domains;
+﻿using OfetasWebAPI.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Patrimonio.Interfaces
+namespace OfetasWebAPI.Interfaces
 {
     public interface IUsuarioRepository
     {

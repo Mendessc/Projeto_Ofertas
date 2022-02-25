@@ -2,15 +2,6 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "BCrypt.Net-Next/4.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/BCrypt.Net-Next.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/BCrypt.Net-Next.dll": {}
-        }
-      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -2222,39 +2213,6 @@
     }
   },
   "libraries": {
-    "BCrypt.Net-Next/4.0.2": {
-      "sha512": "LyNKpIpr4GraRD9+xlTviyxxbZpF6J4xJf7DvraC1mR8PSN/KonGc4rt8C/fjkD3vaEvgA7BcvsbHFCOjgczyQ==",
-      "type": "package",
-      "path": "bcrypt.net-next/4.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "bcrypt.net-next.4.0.2.nupkg.sha512",
-        "bcrypt.net-next.nuspec",
-        "lib/net20/BCrypt.Net-Next.dll",
-        "lib/net20/BCrypt.Net-Next.xml",
-        "lib/net35/BCrypt.Net-Next.dll",
-        "lib/net35/BCrypt.Net-Next.xml",
-        "lib/net40/BCrypt.Net-Next.dll",
-        "lib/net40/BCrypt.Net-Next.xml",
-        "lib/net452/BCrypt.Net-Next.dll",
-        "lib/net452/BCrypt.Net-Next.xml",
-        "lib/net462/BCrypt.Net-Next.dll",
-        "lib/net462/BCrypt.Net-Next.xml",
-        "lib/net472/BCrypt.Net-Next.dll",
-        "lib/net472/BCrypt.Net-Next.xml",
-        "lib/net48/BCrypt.Net-Next.dll",
-        "lib/net48/BCrypt.Net-Next.xml",
-        "lib/net5.0/BCrypt.Net-Next.dll",
-        "lib/net5.0/BCrypt.Net-Next.xml",
-        "lib/netcoreapp3.1/BCrypt.Net-Next.dll",
-        "lib/netcoreapp3.1/BCrypt.Net-Next.xml",
-        "lib/netstandard2.0/BCrypt.Net-Next.dll",
-        "lib/netstandard2.0/BCrypt.Net-Next.xml",
-        "lib/netstandard2.1/BCrypt.Net-Next.dll",
-        "lib/netstandard2.1/BCrypt.Net-Next.xml"
-      ]
-    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -7575,7 +7533,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "BCrypt.Net-Next >= 4.0.2",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.14",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.14",
@@ -7586,19 +7543,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\51371754802\\.nuget\\packages\\": {}
+    "C:\\Users\\lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\51371754802\\OneDrive\\Documentos\\SENAI\\DEV\\3 Semestre\\Projetos\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
       "projectName": "OfetasWebAPI",
-      "projectPath": "C:\\Users\\51371754802\\OneDrive\\Documentos\\SENAI\\DEV\\3 Semestre\\Projetos\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
-      "packagesPath": "C:\\Users\\51371754802\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\51371754802\\OneDrive\\Documentos\\SENAI\\DEV\\3 Semestre\\Projetos\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\obj\\",
+      "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
+      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\51371754802\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7624,10 +7581,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "BCrypt.Net-Next": {
-            "target": "Package",
-            "version": "[4.0.2, )"
-          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[5.0.14, )"
@@ -7677,7 +7630,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }
