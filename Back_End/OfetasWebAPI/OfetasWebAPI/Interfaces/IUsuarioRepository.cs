@@ -9,5 +9,12 @@ namespace OfetasWebAPI.Interfaces
     public interface IUsuarioRepository
     {
         Usuario Login(string email, string senha);
+
+        //CRUD
+        List<Usuario> Listar();
+        Usuario BuscarPorId(int idUsuario);
+        void Cadastrar(Usuario novoUsuario);
+        void Atualizar(int idUsuario, Usuario UsuarioAtualizado);
+        void Deletar(int idUsuario);
     }
 }
