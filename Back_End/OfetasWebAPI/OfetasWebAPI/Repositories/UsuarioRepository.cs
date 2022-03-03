@@ -47,7 +47,7 @@ namespace OfetasWebAPI.Repositories
 
         public Usuario Login(string email, string senha)
         {
-            var usuario = ctx.Usuarios.FirstOrDefault(u => u.Email == email);
+            /*var usuario = ctx.Usuarios.FirstOrDefault(u => u.Email == email);
 
             if (usuario != null)
             {
@@ -65,9 +65,9 @@ namespace OfetasWebAPI.Repositories
                                     return usuario;
                 
             }
-           
+           */
 
-            return null;
+            return  ctx.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha == senha);
         }
     }
 }

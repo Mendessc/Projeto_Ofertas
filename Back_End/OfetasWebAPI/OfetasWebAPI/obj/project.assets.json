@@ -9122,25 +9122,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jhonc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\50742583830\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhonc\\OneDrive\\Área de Trabalho\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\50742583830\\Documents\\OferShow\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
       "projectName": "OfetasWebAPI",
-      "projectPath": "C:\\Users\\jhonc\\OneDrive\\Área de Trabalho\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
-      "packagesPath": "C:\\Users\\jhonc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhonc\\OneDrive\\Área de Trabalho\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\obj\\",
+      "projectPath": "C:\\Users\\50742583830\\Documents\\OferShow\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
+      "packagesPath": "C:\\Users\\50742583830\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\50742583830\\Documents\\OferShow\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jhonc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\50742583830\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -9222,16 +9217,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\jhonc\\OneDrive\\Área de Trabalho\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

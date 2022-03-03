@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using OfetasWebAPI.Utils;
 
 namespace OfetasWebAPI.Repositories
 {
@@ -18,6 +19,7 @@ namespace OfetasWebAPI.Repositories
             ctx = appContext;
         }
 
+
         public Produto Atualzar(Produto pAtualizar)
         {
             ctx.Entry(pAtualizar).State = EntityState.Modified;
@@ -25,6 +27,20 @@ namespace OfetasWebAPI.Repositories
             return ctx.Produtos.Find(pAtualizar.IdProduto);
         }
 
+        
+        public Produto AplicarDesconto(int id)
+        {
+            Produto p = ctx.Produtos.FirstOrDefault(p => p.IdProduto == id);
+
+            Double novoPreco = Desconto.Descontar(p);
+
+            p.Preco = novoPreco;
+
+            Atualzar(p);
+
+            return p;
+        }
+        
         public Produto Criar(Produto pNovo)
         {
             ctx.Produtos.Add(pNovo);

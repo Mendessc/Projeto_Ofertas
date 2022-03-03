@@ -12,5 +12,7 @@ namespace OfetasWebAPI.Interfaces
         Produto Atualzar(Produto pAtualizar);
         Produto Criar(Produto pNovo);
         void Deletar(Produto pDeletar);
+
+        Produto AplicarDesconto(int id);
     }
 }

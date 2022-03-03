@@ -35,7 +35,7 @@ namespace OfetasWebAPI.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(reserva).State = EntityState.Modified;]
+            _context.Entry(reserva).State = EntityState.Modified;
 
             try
             {
