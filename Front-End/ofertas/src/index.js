@@ -15,7 +15,7 @@ const permissaoLogado = ({ component: Component }) => (
       usuarioAutenticado() ? (
         <Component {...props} />
       ) : (
-        <Redirect to="/login" />
+        <Redirect to="/Login" />
       )}
   />
 );
