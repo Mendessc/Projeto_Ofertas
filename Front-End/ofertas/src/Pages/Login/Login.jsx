@@ -1,6 +1,8 @@
 import { Component } from "react";
 import axios from 'axios';
 import { parseJwt, usuarioAutenticado } from "../../services/auth";
+import Cabecalho from "../../Components/header";
+
 
 export default class Login extends Component {
     constructor(props) {
@@ -43,6 +45,7 @@ export default class Login extends Component {
     render() {
         return (
             <div>
+                <Cabecalho/>
                 <form onSubmit={this.efetualogin} className="form-login">
                     <span className="texto-email">Digite seu Email</span>
                     <input className="input-login" value={this.state.email} onChange={this.atualizaStateCampo} name="email" type="email" id="login_email" />

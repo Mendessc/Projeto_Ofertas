@@ -1,0 +1,19 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.cabecalhoPrincipal{
+    display: flex;
+    background-color: #FF4242;
+    align-items: center;
+    justify-content: space-evenly;
+}
