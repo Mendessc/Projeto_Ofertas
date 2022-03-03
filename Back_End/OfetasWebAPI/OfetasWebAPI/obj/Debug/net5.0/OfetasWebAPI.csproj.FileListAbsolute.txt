@@ -155,3 +155,14 @@ C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\
 C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\ref\OfetasWebAPI.dll
 C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.pdb
 >>>>>>> c42e13fdf113c4878807210b4a91ecfaa2892471
+C:\Users\jhonc\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.AssemblyReference.cache
+C:\Users\jhonc\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhonc\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.AssemblyInfoInputs.cache
+C:\Users\jhonc\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.AssemblyInfo.cs
+C:\Users\jhonc\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\jhonc\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jhonc\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jhonc\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.dll
+C:\Users\jhonc\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\ref\OfetasWebAPI.dll
+C:\Users\jhonc\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.xml
+C:\Users\jhonc\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.pdb
