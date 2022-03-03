@@ -2,6 +2,7 @@ import { Component } from "react";
 import axios from 'axios';
 import { parseJwt, usuarioAutenticado } from "../../services/auth";
 import Cabecalho from "../../Components/header";
+import Rodape from "../../Components/footer";
 
 
 export default class Login extends Component {
@@ -44,20 +45,23 @@ export default class Login extends Component {
 
     render() {
         return (
-            <div>
-                <Cabecalho/>
-                <form onSubmit={this.efetualogin} className="form-login">
-                    <span className="texto-email">Digite seu Email</span>
-                    <input className="input-login" value={this.state.email} onChange={this.atualizaStateCampo} name="email" type="email" id="login_email" />
-                    <span className="texto-senha">Digite sua Senha</span>
-                    <input className="input-login" value={this.state.senha} onChange={this.atualizaStateCampo} name="senha" type="password" id="login_senha" />
-                    <div className="botao-login">
-                        <button type='submit' className="btn-login" id="btn_login">
-                            Entrar
-                        </button>
-                    </div>
-                </form>
-            </div>
+            <>
+                <Cabecalho />
+                <main>
+                    <form onSubmit={this.efetualogin} className="form-login">
+                        <span className="texto-email">Digite seu Email</span>
+                        <input className="input-login" value={this.state.email} onChange={this.atualizaStateCampo} name="email" type="email" id="login_email" />
+                        <span className="texto-senha">Digite sua Senha</span>
+                        <input className="input-login" value={this.state.senha} onChange={this.atualizaStateCampo} name="senha" type="password" id="login_senha" />
+                        <div className="botao-login">
+                            <button type='submit' className="btn-login" id="btn_login">
+                                Entrar
+                            </button>
+                        </div>
+                    </form>
+                </main>
+                <Rodape />
+            </>
         )
     }
 }
