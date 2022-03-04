@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace OfetasWebAPI.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
     public class UsuarioController : ControllerBase
