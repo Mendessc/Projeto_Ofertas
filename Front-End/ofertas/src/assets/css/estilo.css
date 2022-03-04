@@ -1,0 +1,51 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+/* -------------HEADER------------------ */
+.container_header{
+    width: 100%;
+    height: 9vh;
+}
+
+.div_header{
+    display: flex;
+    background-color: #FF4242;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bloco_logo{
+    display: flex;
+    align-items: center;
+    margin-right: 55vw;
+}
+.bloco_links{
+    display: flex;
+    align-items: center;
+}
+
+/* --------------FOOTER------------------- */
+
+.container_footer{
+    width: 100%;
+    height: 12vh;
+}
+
+.div_footer{
+    display: flex;
+    background-color: #AA2020;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer_text{
+    color: white;
+}
