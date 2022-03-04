@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { Route, BrowserRouter, Redirect, Switch } from "react-router-dom";
+import { render } from "react-dom";
+import { Route, BrowserRouter, Routes, Navigate } from "react-router-dom";
 import './index.css';
 import { parseJwt, usuarioAutenticado } from './services/auth';
 import reportWebVitals from './reportWebVitals';
@@ -15,22 +15,33 @@ const permissaoLogado = ({ component: Component }) => (
       usuarioAutenticado() ? (
         <Component {...props} />
       ) : (
-        <Redirect to="/Login" />
+        <Navigate to="/Login" />
       )}
   />
 );
 
-const routing = (
-  <BrowserRouter>
-    <Switch>
-      <Route exact path='/' component={Login} />
-      <Route path='/Home' component={Home} />
-      <Route path='/Login' component={Login}/>
-    </Switch>
-  </BrowserRouter>
-);
+// const routing = (
+//   <BrowserRouter>
+//     <Routes>
+//       <Route exact path='/' component={Login} />
+//       <Route path='/Home' component={Home} />
+//       <Route path='/Login' component={Login} />
+//     </Routes>
+//   </BrowserRouter>
+// );
 
-ReactDOM.render(routing, document.getElementById('root'));
+// ReactDOM.render(routing, document.getElementById('root'));
+
+render(
+  <BrowserRouter>
+    <Routes>
+      <Route exact path='/' element={<Login />} />
+      <Route path='/Home' element={<Home />} />
+      <Route path='/Login' element={<Login />} />
+    </Routes>
+  </BrowserRouter>,
+  document.getElementById('root')
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

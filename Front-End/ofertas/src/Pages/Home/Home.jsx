@@ -2,15 +2,16 @@ import { Component } from 'react';
 import { useState, useEffect } from 'react';
 import axios, { Axios } from 'axios';
 import { parseJwt, usuarioAutenticado } from '../../services/auth';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { render } from '@testing-library/react';
-import { useHistory } from 'react-router-dom';
 
 export default function Home() {
     const [listaProdutos, setListaProdutos] = useState([]);
     const [reservando, setReservando] = useState(false);
 
-    function listarProdutos() {
+    let history = useNavigate();
+
+    function ListarProdutos() {
         axios('https://6220fb53afd560ea69a3da5b.mockapi.io/Ofertas')
             .then(resposta => {
                 if (resposta.status === 200) {
@@ -22,7 +23,8 @@ export default function Home() {
             .catch(erro => console.log(erro))
     }
 
-    function reservarProduto(Produto) {
+    function ReservarProduto(Produto) {
+        
         if (usuarioAutenticado() && parseJwt().role == 'role') {
             setReservando(true);
             axios.post('requisicao')
@@ -30,16 +32,16 @@ export default function Home() {
                     if (resposta.status === 204) {
                         console.log('produto reservado');
                         setReservando(false);
-                        listarProdutos();
+                        ListarProdutos();
                     }
                 })
         } else {
             console.log('nao e consumidor, sem autorizacao para reservar');
-            window.history.
+            history('/Login');
         }
     }
 
-    useEffect(listarProdutos, []);
+    useEffect(ListarProdutos, []);
 
     return (
         <div>
@@ -47,7 +49,7 @@ export default function Home() {
                 return (
                     <div key={produto.idProduto}>
                         <h1>Botao reservar</h1>
-                        {reservando ? null : <button onClick={() => reservarProduto(produto)}></button>}
+                        {reservando ? null : <button onClick={() => ReservarProduto(produto)}></button>}
                     </div>
                 )
             })}
