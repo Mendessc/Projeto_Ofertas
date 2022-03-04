@@ -21,7 +21,7 @@ namespace OfetasWebAPI.Utils
                 {
                     var diasPassados = 20 - DiasParaVenc ;
                     var preco = _produto.Preco;
-                    double desconto = ((preco / 100) * 5)* diasPassados;
+                    double desconto = ((preco / 100) * 2)* diasPassados;
 
                     var novoPreco = preco - desconto;
 

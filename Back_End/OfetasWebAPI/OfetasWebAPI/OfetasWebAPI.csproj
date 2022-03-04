@@ -14,6 +14,7 @@
 	<ItemGroup>
 		<Folder Include="Domains\" />
 		<Folder Include="StaticFiles\Images\" />
+		<Folder Include="StaticFiles\Images\" />
 	</ItemGroup>
 
 	<ItemGroup>

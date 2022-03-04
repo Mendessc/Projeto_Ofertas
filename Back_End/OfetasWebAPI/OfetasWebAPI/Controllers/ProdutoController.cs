@@ -46,6 +46,8 @@ namespace OfetasWebAPI.Controllers
 
             Double novoPreco = Desconto.Descontar(p);
 
+            
+
             p.Preco = novoPreco;
 
             _context.Entry(p).State = EntityState.Modified;
