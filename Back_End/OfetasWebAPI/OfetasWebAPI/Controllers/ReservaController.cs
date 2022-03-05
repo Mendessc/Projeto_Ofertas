@@ -57,6 +57,10 @@ namespace OfetasWebAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Reserva>> PostReserva(Reserva reserva)
         {
+            if (reserva.IdConsumidor == null)
+            {
+                return BadRequest("A reserva não contem um consumidor");
+            }
             _context.Reservas.Add(reserva);
             await _context.SaveChangesAsync();
 

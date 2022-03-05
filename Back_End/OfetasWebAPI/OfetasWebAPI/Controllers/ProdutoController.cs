@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using OfetasWebAPI.Utils;
+using Microsoft.AspNetCore.Authorization;
 
 namespace OfetasWebAPI.Controllers
 {
@@ -33,6 +34,7 @@ namespace OfetasWebAPI.Controllers
             _ProdutosRepository = new ProdutoRepository();
         }
         */
+        
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Produto>>> GetProduto()
         {
@@ -57,7 +59,7 @@ namespace OfetasWebAPI.Controllers
 
             return Ok();
         }
-
+        [Authorize(Roles = "3")]
         [HttpPut("{id}")]
         public async Task<ActionResult<Produto>> PutProduto(int id, Produto produto)
         {
@@ -82,7 +84,7 @@ namespace OfetasWebAPI.Controllers
 
             return NoContent();
         }
-
+        [Authorize(Roles = "3")]
         [HttpPost]
         public async Task<ActionResult<Produto>> PostProduto([FromForm] Produto produto, IFormFile arquivo)
         {
@@ -109,7 +111,7 @@ namespace OfetasWebAPI.Controllers
 
             return CreatedAtAction("GetProduto", new { id = produto.IdProduto }, produto);
         }
-
+        [Authorize(Roles = "3")]
         [HttpDelete("{id}")]
         public async Task<ActionResult<Produto>> DeleteProduto (int id)
         {

@@ -47,7 +47,7 @@ namespace OfetasWebAPI.Repositories
 
         public Usuario Login(string email, string senha)
         {
-            /*var usuario = ctx.Usuarios.FirstOrDefault(u => u.Email == email);
+            var usuario = ctx.Usuarios.FirstOrDefault(u => u.Email == email);
 
             if (usuario != null)
             {
@@ -55,8 +55,8 @@ namespace OfetasWebAPI.Repositories
                 {
                     usuario.Senha = Criptografia.GerarHash(usuario.Senha);
                     ctx.SaveChanges();
-                    
-                    
+
+                    //return usuario;
 
                 }
 
@@ -65,7 +65,7 @@ namespace OfetasWebAPI.Repositories
                                     return usuario;
                 
             }
-           */
+           
 
             return  ctx.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha == senha);
         }

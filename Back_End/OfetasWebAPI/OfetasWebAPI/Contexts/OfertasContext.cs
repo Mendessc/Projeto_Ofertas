@@ -241,7 +241,7 @@ namespace OfetasWebAPI.Contexts
 
                 entity.Property(e => e.Senha)
                     .IsRequired()
-                    .HasMaxLength(20)
+                    .HasMaxLength(100)
                     .IsUnicode(false)
                     .HasColumnName("senha");
 
