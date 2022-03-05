@@ -16,17 +16,37 @@ namespace OfetasWebAPI.Utils
             if (idCatProduto == 1)
             {
                 var DiasParaVenc = _produto.DataValidade.Day - DateTime.Now.Date.Day;
-
-                if (DiasParaVenc < 20)
+                if (DiasParaVenc < 0)
                 {
-                    var diasPassados = 20 - DiasParaVenc ;
-                    var preco = _produto.Preco;
-                    double desconto = ((preco / 100) * 2)* diasPassados;
+                    var MesesPositivo = DiasParaVenc * -1;
+                    DiasParaVenc = MesesPositivo;
+                    if (DiasParaVenc < 20)
+                    {
+                        var diasPassados = 20 - DiasParaVenc;
+                        var preco = _produto.Preco;
+                        double desconto = ((preco / 100) * 7) * diasPassados;
 
-                    var novoPreco = preco - desconto;
+                        var novoPreco = preco - desconto;
 
-                    return novoPreco;
+                        return novoPreco;
+                    }
+
                 }
+                else
+                {
+                    if (DiasParaVenc < 20)
+                    {
+                        var diasPassados = 20 - DiasParaVenc;
+                        var preco = _produto.Preco;
+                        double desconto = ((preco / 100) * 7) * diasPassados;
+
+                        var novoPreco = preco - desconto;
+
+                        return novoPreco;
+                    }
+                }
+
+                    
                  
             }
 
@@ -34,6 +54,72 @@ namespace OfetasWebAPI.Utils
             if (idCatProduto == 6)
             {
                 var MesesDeUso = _produto.DataValidade.Month - DateTime.Now.Date.Month;
+                if (MesesDeUso < 0)
+                {
+                    var MesesPositivo = MesesDeUso * -1;
+                    MesesDeUso = MesesPositivo;
+                    if (MesesDeUso >= 2)
+                    {
+                        //var MesesPassados = 12 - MesesDeUso;
+                        var preco = _produto.Preco;
+                        double desconto = ((preco / 100) * 2) * MesesDeUso;
+
+                        var novoPreco = preco - desconto;
+
+                        return novoPreco;
+                    }
+                }
+                else
+                {
+                    if (MesesDeUso >= 2)
+                    {
+                        //var MesesPassados = 12 - MesesDeUso;
+                        var preco = _produto.Preco;
+                        double desconto = ((preco / 100) * 2) * MesesDeUso;
+
+                        var novoPreco = preco - desconto;
+
+                        return novoPreco;
+                    }
+                }
+                    
+
+            }
+            //ROUPAS
+            if (idCatProduto == 2 || idCatProduto == 4)
+            {
+                var MesesDeUso =    _produto.DataValidade.Month - DateTime.Now.Date.Month;
+
+                if (MesesDeUso < 0)
+                {
+                    var MesesPositivo = MesesDeUso * -1;
+                    MesesDeUso = MesesPositivo;
+                    if (MesesDeUso >= 2)
+                    {
+                        //var MesesPassados = 12 - MesesDeUso;
+                        var preco = _produto.Preco;
+                        double desconto = ((preco / 100) * 2) * MesesDeUso;
+
+                        var novoPreco = preco - desconto;
+
+                        return novoPreco;
+                    }
+                }
+                else
+                {
+                    if (MesesDeUso >= 2)
+                    {
+                        //var MesesPassados = 12 - MesesDeUso;
+                        var preco = _produto.Preco;
+                        double desconto = ((preco / 100) * 2) * MesesDeUso;
+
+                        var novoPreco = preco - desconto;
+
+                        return novoPreco;
+                    }
+                }
+
+
 
                 if (MesesDeUso >= 2 )
                 {
@@ -47,42 +133,47 @@ namespace OfetasWebAPI.Utils
                 }
 
             }
-            //ROUPAS
-            if (idCatProduto == 2 || idCatProduto == 4)
-            {
-                var MesesDeUso = _produto.DataValidade.Month - DateTime.Now.Date.Month;
-
-                if (MesesDeUso >= 2)
-                {
-                    //var MesesPassados = 12 - MesesDeUso;
-                    var preco = _produto.Preco;
-                    double desconto = ((preco / 100) * 7) * MesesDeUso;
-
-                    var novoPreco = preco - desconto;
-
-                    return novoPreco;
-                }
-
-            }
 
             //COSMETICOS
             if (idCatProduto == 3)
             {
                 var MesesParaVencer = _produto.DataValidade.Month - DateTime.Now.Date.Month;
 
-                if (MesesParaVencer < 12 )
+                if (MesesParaVencer < 0)
                 {
-                    var MesesPassados = 12 - MesesParaVencer;
-                    var preco = _produto.Preco;
-                    double desconto = ((preco / 100) * 5) * MesesParaVencer;
+                    var MesesPositivo = MesesParaVencer * -1;
+                    MesesParaVencer = MesesPositivo;
+                    if (MesesParaVencer < 12)
+                    {
+                        var MesesPassados = 12 - MesesParaVencer;
+                        var preco = _produto.Preco;
+                        double desconto = ((preco / 100) * 5) * MesesPassados;
 
-                    var novoPreco = preco - desconto;
+                        var novoPreco = preco - desconto;
 
-                    return novoPreco;
+                        return novoPreco;
+                    }
+
+                }
+                else
+                {
+                    if (MesesParaVencer < 12)
+                    {
+                        var MesesPassados = 12 - MesesParaVencer;
+                        var preco = _produto.Preco;
+                        double desconto = ((preco / 100) * 2) * MesesPassados;
+
+                        var novoPreco = preco - desconto;
+
+                        return novoPreco;
+                    }
                 }
 
+
+                    
+
             }
-            return 0;
+            return _produto.Preco;
 
         }
     }

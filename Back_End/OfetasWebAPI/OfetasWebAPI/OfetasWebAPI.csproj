@@ -32,6 +32,12 @@
 		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.2" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Update="StaticFiles\images\cf706cb8-2167-4195-8d6c-0fcee63c7d49.jpg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
 	<PropertyGroup>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<NoWarn>$(NoWarn);1591</NoWarn>

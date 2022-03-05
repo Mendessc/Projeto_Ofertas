@@ -3,12 +3,8 @@ build_property.TargetFramework = net5.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
-build_property.PublishSingleFile = 
-build_property.IncludeAllContentForSelfExtract = 
-build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OfetasWebAPI
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\
-=======
-build_property.ProjectDir = C:\Users\50742583830\Documents\OferShow\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\
->>>>>>> 99282353ec064a31c882543966f402e912d6eaa1
+build_property.ProjectDir = D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\
