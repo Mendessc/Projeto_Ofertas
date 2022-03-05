@@ -38,6 +38,12 @@ namespace OfetasWebAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Produto>>> GetProduto()
         {
+            var produto = await _context.Produtos.ToListAsync();
+            foreach (var item in produto)
+            {                
+                DeletaProdutoVencido(item);
+            }
+            
             return await _context.Produtos.ToListAsync();
         }
 
@@ -132,5 +138,30 @@ namespace OfetasWebAPI.Controllers
         {
             return _context.Produtos.Any(p => p.IdProduto == id);
         }
+
+        private void DeletaProdutoVencido(Produto p)
+        {
+            if (p.IdCategoria == 1 )
+            {
+                if (p.DataValidade <= DateTime.Now)
+                {
+                    _context.Produtos.Remove(p);
+                    _context.SaveChanges();
+                }
+            }
+            
+        }
+
+        private void MetodoDesconta(Produto p)
+        {
+            Double novoPreco = Desconto.Descontar(p);
+
+            p.Preco = novoPreco;
+            _context.Entry(p).State = EntityState.Modified;
+            _context.SaveChanges();
+
+        }
+
+        
     }
 }

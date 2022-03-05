@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OfetasWebAPI.Contexts;
@@ -26,7 +27,7 @@ namespace OfetasWebAPI.Controllers
         {
             return await _context.Consumidors.ToListAsync();
         }
-
+        [Authorize(Roles = "1,2")]
         [HttpPut]
         public async Task<ActionResult<Consumidor>> PutConsumidor(int id, Consumidor cAtualizar)
         {
@@ -51,7 +52,7 @@ namespace OfetasWebAPI.Controllers
 
             return NoContent();
         }
-
+        
         [HttpPost]
         public async Task<ActionResult<Consumidor>> PostConsumidor(Consumidor consumidor)
         {
@@ -60,7 +61,7 @@ namespace OfetasWebAPI.Controllers
 
             return CreatedAtAction("GetConsumidor", new { id = consumidor.IdConsumidor }, consumidor);
         }
-
+        [Authorize(Roles = "1")]
         [HttpDelete]
         public async Task<ActionResult> DeleteConsumidor(int id)
         {

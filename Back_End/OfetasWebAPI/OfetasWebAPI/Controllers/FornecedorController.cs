@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OfetasWebAPI.Contexts;
@@ -26,7 +27,7 @@ namespace OfetasWebAPI.Controllers
         {
             return await _context.Fornecedors.ToListAsync();
         }
-
+        [Authorize(Roles = "1, 3")]
         [HttpPut]
         public async Task<ActionResult<Fornecedor>> PutFornecedor(int id, Fornecedor fornecedor)
         {
@@ -51,7 +52,7 @@ namespace OfetasWebAPI.Controllers
 
             return NoContent();
         }
-
+        
         [HttpPost]
         public async Task<ActionResult<Fornecedor>> PostFornecedor(Fornecedor fornecedor)
         {
@@ -60,7 +61,7 @@ namespace OfetasWebAPI.Controllers
 
             return CreatedAtAction("GetFornecedor", new { id = fornecedor.IdFornecedor }, fornecedor);
         }
-
+        [Authorize(Roles = "1")]
         [HttpDelete]
         public async Task<ActionResult<Fornecedor>> DeleteFornecedor(int id)
         {

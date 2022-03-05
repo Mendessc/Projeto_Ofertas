@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OfetasWebAPI.Contexts;
@@ -21,13 +22,13 @@ namespace OfetasWebAPI.Controllers
         {
             _context = appContext;
         }
-
+        [Authorize(Roles = "2, 3")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Reserva>>> GetReserva()
         {
             return await _context.Reservas.ToListAsync();
-        } 
-
+        }
+        [Authorize(Roles = "1")]
         [HttpPut("{id}")]
         public async Task<ActionResult<Reserva>> PutReserva(int id, Reserva reserva)
         {
@@ -53,7 +54,7 @@ namespace OfetasWebAPI.Controllers
 
             return NoContent();
         }
-
+        [Authorize(Roles = "1,2 ")]
         [HttpPost]
         public async Task<ActionResult<Reserva>> PostReserva(Reserva reserva)
         {
@@ -66,7 +67,7 @@ namespace OfetasWebAPI.Controllers
 
             return CreatedAtAction("GetReserva", new { r = reserva.IdReserva }, reserva);
         }
-
+        [Authorize(Roles = "1,2 ")]
         [HttpDelete]
         public async Task<ActionResult<Reserva>> DeleteReserva(int id)
         {

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OfetasWebAPI.Contexts;
@@ -22,7 +23,7 @@ namespace OfetasWebAPI.Controllers
         {
             _context = context;
         }
-
+        
         // GET: api/Usuarios
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
@@ -43,7 +44,7 @@ namespace OfetasWebAPI.Controllers
 
             return usuario;
         }
-
+        [Authorize(Roles = "1,2,3 ")]
         // PUT: api/Usuarios/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -81,13 +82,13 @@ namespace OfetasWebAPI.Controllers
         public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
         {
 
-            //usuario.Senha = Criptografia.GerarHash(usuario.Senha);
+            usuario.Senha = Criptografia.GerarHash(usuario.Senha);
             _context.Usuarios.Add(usuario);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetUsuario", new { id = usuario.IdUsuario }, usuario);
         }
-
+        [Authorize(Roles = "1,2,3 ")]
         // DELETE: api/Usuarios/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUsuario(int id)
