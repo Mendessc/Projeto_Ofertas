@@ -7,14 +7,14 @@ import { render } from '@testing-library/react';
 
 export default function Home() {
     const [listaProdutos, setListaProdutos] = useState([]);
-    const [listaConsumidores, setlistaConsumidores] = useState([]);
+    const [listaConsumidores, setListaConsumidores] = useState([]);
     const [reservando, setReservando] = useState(false);
-    const [idConsumidor, setIdConsumidor] = useState('');
+    const [idConsumidor, setIdConsumidor] = useState();
 
     let history = useNavigate();
 
     function ListarProdutos() {
-        axios('https://6220fb53afd560ea69a3da5b.mockapi.io/Ofertas')
+        axios('http://localhost:5000/api/Produto')
             .then(resposta => {
                 if (resposta.status === 200) {
                     console.log(resposta.data);
@@ -26,33 +26,36 @@ export default function Home() {
     }
 
     function ReservarProduto(produto) {
-        
+
         if (usuarioAutenticado() && parseJwt().role === '2') {
             setReservando(true);
-            axios('')
+            axios('http://localhost:5000/api/Consumidor')
                 .then(resposta => {
                     if (resposta.status === 200) {
+                        console.log(resposta.data);
+                        // console.log(parseJwt());
                         resposta.data.map((consumidor) => {
-                            if (consumidor.idUsuarioNavigation.idUsuario === localStorage.getItem('usuario-login').idUsuario) {
+                            if (consumidor.idUsuario == parseJwt().jti) {
                                 setIdConsumidor(consumidor.idConsumidor);
+                                console.log('idConsumidor encontrado');
+                                axios.post('http://localhost:5000/api/Reserva', {
+                                    idConsumidor: idConsumidor,
+                                    idProduto: produto.idProduto
+                                })
+                                    .then(resposta => {
+                                        if (resposta.status == 200) {
+                                            console.log('produto reservado');
+                                            setReservando(false);
+                                            ListarProdutos();
+                                        }
+                                    })
+                            } else {
+                                console.log('idConsumidor nao encontrado');
                             }
                         })
-                        // setlistaConsumidores(resposta.data);
-                        // var consumidorLogado = listaConsumidores.filter(item.idUsuarioNavigation.idUsuario === localStorage.getItem('usuario-login').idUsuario);
-                        // setIdConsumidor(consumidorLogado.idConsumidor);
                     }
                 })
-            axios.post('requisicao', {
-                idConsumidor : localStorage.getItem('usuario-login').Consumidor.idConsumidor,
-                idProduto : produto.idProduto
-            })
-                .then(resposta => {
-                    if (resposta.status === 204) {
-                        console.log('produto reservado');
-                        setReservando(false);
-                        ListarProdutos();
-                    }
-                })
+
         } else {
             console.log('nao e consumidor, sem autorizacao para reservar');
             history('/Login');

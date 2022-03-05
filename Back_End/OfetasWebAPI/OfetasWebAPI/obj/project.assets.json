@@ -9122,11 +9122,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\lucas\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\50742583830\\.nuget\\packages\\": {}
+>>>>>>> 99282353ec064a31c882543966f402e912d6eaa1
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
       "projectName": "OfetasWebAPI",
       "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
@@ -9135,6 +9140,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\50742583830\\Documents\\OferShow\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
+      "projectName": "OfetasWebAPI",
+      "projectPath": "C:\\Users\\50742583830\\Documents\\OferShow\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
+      "packagesPath": "C:\\Users\\50742583830\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\50742583830\\Documents\\OferShow\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\50742583830\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 99282353ec064a31c882543966f402e912d6eaa1
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9217,7 +9232,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+>>>>>>> 99282353ec064a31c882543966f402e912d6eaa1
       }
     }
   }

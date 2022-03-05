@@ -1,6 +1,7 @@
 import { Component } from "react";
 import axios from 'axios';
 import { parseJwt, usuarioAutenticado } from "../../services/auth";
+import { Link } from 'react-router-dom';
 import Cabecalho from "../../Components/header";
 import Rodape from "../../Components/footer";
 
@@ -15,6 +16,7 @@ export default class Login extends Component {
             isLoading: false,
         };
     }
+
     efetualogin = (log) => {
         log.preventDefault();
 
@@ -26,8 +28,8 @@ export default class Login extends Component {
         }).then((resposta) => {
             if (resposta.status === 200) {
                 localStorage.setItem('usuario-login', resposta.data.token);
-
                 this.setState({ isLoading: false });
+                console.log('logado');
             }
         })
             .catch(() => {

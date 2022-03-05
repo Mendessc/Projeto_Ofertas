@@ -13,6 +13,7 @@ using OfetasWebAPI.Utils;
 
 namespace OfetasWebAPI.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
     public class ProdutoController : ControllerBase
@@ -83,8 +84,26 @@ namespace OfetasWebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Produto>> PostProduto(Produto produto)
+        public async Task<ActionResult<Produto>> PostProduto([FromForm] Produto produto, IFormFile arquivo)
         {
+            #region Upload da Imagem com extensões permitidas apenas
+            string[] extensoesPermitidas = { "jpg", "png", "jpeg", "gif" };
+            string uploadResultado = Upload.UploadFile(arquivo, extensoesPermitidas);
+
+            if (uploadResultado == "")
+            {
+                return BadRequest("Arquivo não encontrado");
+            }
+
+            if (uploadResultado == "Extensão não permitida")
+            {
+                return BadRequest("Extensão de arquivo não permitida");
+            }
+
+            produto.ImagemProduto = uploadResultado;
+            #endregion
+
+
             _context.Produtos.Add(produto);
             await _context.SaveChangesAsync();
 
