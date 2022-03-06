@@ -8,19 +8,20 @@ import Rodape from "../../Components/footer";
 export default function Usuario(){
 
     const[idTipoUsuario, setIdTipoUsuario] = useState('');
-    const[listaTipoUsuario, setListaTipoUsuario] = useState('');
+    const[listaTipoUsuario, setListaTipoUsuario] = useState([]);
     const[email, setEmail] = useState('');
     const[senha, setSenha] = useState('');
 
     function listarTipoUsuario(){
-        axios('http://localhost:5000/api/TipoUsuario',{
+        axios('http://localhost:5000/api/TiposUsuarios',{
             headers:{
                 'Authorization': 'Bearer' + localStorage.getItem('usuario-login')
             }
         })
     .then(resposta=>{
-        if (resposta.status === 200) {
+        if (resposta.status === 200) {            
             setListaTipoUsuario(resposta.data)
+            console.log(listaTipoUsuario)
         }
     })
     .catch(erro=>console.log(erro))
@@ -30,14 +31,14 @@ useEffect(listarTipoUsuario,[])
     function Cadastrar(evento){
         evento.preventDefault()
 
-        axios.post('https://localhost:5000/api/Usuario',{
+        console.log(email);
+        console.log(senha);
+        console.log(idTipoUsuario);
+
+        axios.post('http://localhost:5000/api/Usuario',{
             idTipoUsuario : idTipoUsuario,
             email: email,
             senha: senha
-        },{
-            headers:{
-                'Authorization': 'Bearer' + localStorage.getItem('usuario-login')
-            }
         })
         .then(resposta=>{
             if (resposta.status === 201) {
@@ -60,13 +61,8 @@ useEffect(listarTipoUsuario,[])
                     onChange={(campo)=>setIdTipoUsuario(campo.target.value)}        
                     >
                         <option value ="0">Selecione o tipo da Conta</option>
-                        {listaTipoUsuario.map((tipo)=>{
-                            return(
-                                <option key={tipo.idTipoUsuario} value={tipo.idTipoUsuario}>
-                                {tipo.nomeTipoUsuario}    
-                                </option>
-                            )
-                        })}
+                        <option value ="2">Consumidor</option>
+                        <option value ="3">Fornecedor</option>
                     </select>
                     <input type="email"
                            name="email"

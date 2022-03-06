@@ -8,7 +8,7 @@ namespace OfetasWebAPI.Repositories
 {
     public class TipoUsuarioRepository
     {
-        private readonly OfertasContext ctx;
+        readonly OfertasContext ctx = new();
 
         public IEnumerable<TipoUsuario> Listar()
         {
