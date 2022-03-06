@@ -8,7 +8,7 @@ import '../assets/css/estilo.css'
 export const Cabecalho = () => {
 
     return (
-        <header className="container container_header">
+        <header className="container_header">
             <div className="div_header">
                 <div className="bloco_logo">
                     <Link to="/">

@@ -4,7 +4,7 @@ import React from 'react'
  export default function Rodape(){
  
       return(
-            <footer className="container container_footer">
+            <footer className="container_footer">
                 <section className="div_footer">
                 <div className="footer_text">
                     <p>Copyright © 2022 | All Rights Reserved By OfferShows</p>

@@ -44,6 +44,8 @@
     background-color: #AA2020;
     align-items: center;
     justify-content: space-evenly;
+    height: 100px;
+    margin-top: 55px;
 }
 
 .footer_text{

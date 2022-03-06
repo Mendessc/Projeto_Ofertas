@@ -5,11 +5,26 @@ import { parseJwt, usuarioAutenticado } from '../../services/auth';
 import { Link, useNavigate } from 'react-router-dom';
 import { render } from '@testing-library/react';
 
+//CSS:
+import '../../assets/css/home.css';
+
+//Componentes:
+import Cabecalho from "../../Components/header";
+import Rodape from "../../Components/footer";
+
+//img:
+import coca from "../../assets/img/Home/coca.png";
+import liza from "../../assets/img/Home/liza.png";
+import qualy from "../../assets/img/Home/qualy.png";
+import friboi from "../../assets/img/Home/friboi.png";
+import yoki from "../../assets/img/Home/yoki.png";
+import aurora from "../../assets/img/Home/aurora.png";
+
 export default function Home() {
     const [listaProdutos, setListaProdutos] = useState([]);
     const [listaConsumidores, setListaConsumidores] = useState([]);
     const [reservando, setReservando] = useState(false);
-    const [idConsumidor, setIdConsumidor] = useState();
+    const [idConsumidor, setidConsumidor] = useState(null);
 
     let history = useNavigate();
 
@@ -33,17 +48,20 @@ export default function Home() {
                 .then(resposta => {
                     if (resposta.status === 200) {
                         console.log(resposta.data);
-                        // console.log(parseJwt());
                         resposta.data.map((consumidor) => {
                             if (consumidor.idUsuario == parseJwt().jti) {
-                                setIdConsumidor(consumidor.idConsumidor);
+                                setidConsumidor(consumidor.idConsumidor);
                                 console.log('idConsumidor encontrado');
                                 axios.post('http://localhost:5000/api/Reserva', {
-                                    idConsumidor: idConsumidor,
+                                    idConsumidor: consumidor.idConsumidor,
                                     idProduto: produto.idProduto
+                                }, {
+                                    headers: {
+                                        'Authorization': 'Bearer ' + localStorage.getItem('usuario-login')
+                                    }
                                 })
                                     .then(resposta => {
-                                        if (resposta.status == 200) {
+                                        if (resposta.status == 201) {
                                             console.log('produto reservado');
                                             setReservando(false);
                                             ListarProdutos();
@@ -65,15 +83,53 @@ export default function Home() {
     useEffect(ListarProdutos, []);
 
     return (
+
         <div>
-            {listaProdutos.map((produto) => {
-                return (
-                    <div key={produto.idProduto}>
-                        <h1>Botao reservar</h1>
-                        {reservando ? null : <button onClick={() => ReservarProduto(produto)}></button>}
+            <Cabecalho />
+            <h1 className="container ofertas_Home">Ofertas do dia</h1>
+            <div className="container areaProdutos_Home" >
+                {listaProdutos.map((produto) => {
+                    return (
+                        <div className="cadaProdutoListado_Home" key={produto.idProduto}>
+                            <div className="imgProduto_Home">
+
+                            </div>
+                            <div className="dadosProdutos_Home">
+                                <div className="dadosProduto_Home">
+                                    <p>{produto.nomeProduto}</p>
+                                </div>
+                                <div className="areaPrecoLevar_Home">
+                                    <span className="preco_home" >R$ {produto.preco}</span>
+                                    {reservando ? null : <button className='botaoLevar_Home' onClick={() => ReservarProduto(produto)}>Levar</button>}
+                                </div>
+                            </div>
+                            <div className="areaValidade">
+                                <span>Vence em {Intl.DateTimeFormat("pt-br", {
+                                     year: 'numeric', month: 'numeric', day: 'numeric',
+                                 }).format(new Date(produto.dataValidade))
+                                }</span>
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
+            <div className="container areaMarcas_Home">
+                <h1>Aqui tem</h1>
+                <div className="imgMarcas_Home">
+                    <img src={coca} alt="CocaCola" />
+                    <div className="imgDoMeio_Home">
+                        <img src={liza} alt="Liza" />
+                        <img src={qualy} alt="Qualy" />
                     </div>
-                )
-            })}
+                    <div className="imgDoMeio_Home2">
+                        <img src={friboi} alt="Friboi" />
+                        <img src={yoki} alt="Yoki" />
+                    </div>
+                    <img src={aurora} alt="aurora" />
+                </div>
+            </div>
+            <Rodape />
         </div>
+
     );
 }

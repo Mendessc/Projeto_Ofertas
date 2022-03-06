@@ -1,0 +1,92 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background: #F1F1F1;
+}
+
+.ofertas_Home {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #636363;
+    margin-bottom: 15px;
+}
+
+.areaProdutos_Home {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cadaProdutoListado_Home {
+    width: 250px;
+    height: 259px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cadaProdutoListado_Home p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+.dadosProdutos_Home{
+    background: #E0E0E0;
+}
+.areaPrecoLevar_Home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.preco_home {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FF532C;
+}
+
+.botaoLevar_Home {
+    width: 58.72px;
+    height: 29.33px;
+    background: #FD9077;
+    border-radius: 10px;
+    border:none;
+    color:white ;
+}
+
+.areaValidade {
+    background: #FF0404;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    font-weight:500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.areaMarcas_Home {
+    display: flex;
+    flex-direction: column;
+    width: 1116px;
+}
+
+.areaMarcas_Home h1 {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #636363;
+    margin-bottom: 15px;
+}
+
+.imgMarcas_Home {
+    display: flex;
+    width: 1116px;
+}

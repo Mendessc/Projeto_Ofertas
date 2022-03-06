@@ -54,7 +54,7 @@ namespace OfetasWebAPI.Controllers
 
             return NoContent();
         }
-        [Authorize(Roles = "1,2 ")]
+        [Authorize(Roles = "2")]
         [HttpPost]
         public async Task<ActionResult<Reserva>> PostReserva(Reserva reserva)
         {
