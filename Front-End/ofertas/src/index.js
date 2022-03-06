@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 //Paginas:
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
+import CadastroProduto from './Pages/CadastroProduto/CadastroProduto';
 
 const permissaoLogado = ({ component: Component }) => (
   <Route
@@ -38,6 +39,7 @@ render(
       <Route exact path='/' element={<Login />} />
       <Route path='/Home' element={<Home />} />
       <Route path='/Login' element={<Login />} />
+      <Route path='/CadastroProduto' element={<CadastroProduto />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

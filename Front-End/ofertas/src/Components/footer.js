@@ -1,3 +1,4 @@
+import '../assets/css/estilo.css'
 import React from 'react'
 
  export default function Rodape(){
