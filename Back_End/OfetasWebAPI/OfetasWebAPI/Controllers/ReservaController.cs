@@ -28,6 +28,13 @@ namespace OfetasWebAPI.Controllers
         {
             return await _context.Reservas.ToListAsync();
         }
+
+        [Authorize(Roles = "2, 3")]
+        [HttpGet("Minhas")]
+        public async Task<ActionResult<IEnumerable<Reserva>>> MinhasReserva(int id)
+        {
+            return await _context.Reservas.Include(c => c.IdConsumidorNavigation).Include(c => c.IdProdutoNavigation).Where(p => p.IdConsumidor == id).ToListAsync();
+        }
         [Authorize(Roles = "1")]
         [HttpPut("{id}")]
         public async Task<ActionResult<Reserva>> PutReserva(int id, Reserva reserva)

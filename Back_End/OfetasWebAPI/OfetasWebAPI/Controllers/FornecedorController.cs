@@ -27,6 +27,20 @@ namespace OfetasWebAPI.Controllers
         {
             return await _context.Fornecedors.ToListAsync();
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Fornecedor>> GetConsumidor(int id)
+        {
+            var fornecedor = await _context.Fornecedors.FindAsync(id);
+
+            if (fornecedor == null)
+            {
+                return NotFound();
+            }
+
+            return fornecedor;
+        }
+
         [Authorize(Roles = "1, 3")]
         [HttpPut]
         public async Task<ActionResult<Fornecedor>> PutFornecedor(int id, Fornecedor fornecedor)

@@ -29,7 +29,12 @@ export default class Login extends Component {
             if (resposta.status === 200) {
                 localStorage.setItem('usuario-login', resposta.data.token);
                 this.setState({ isLoading: false });
-                console.log('logado');
+                console.log(usuarioAutenticado());
+                console.log(parseJwt());
+                if (parseJwt().role === '2' )  {
+                    
+                    this.context.history.push('/Home');
+                }
             }
         })
             .catch(() => {

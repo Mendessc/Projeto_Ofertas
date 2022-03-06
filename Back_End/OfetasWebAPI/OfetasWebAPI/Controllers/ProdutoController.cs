@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using OfetasWebAPI.Utils;
 using Microsoft.AspNetCore.Authorization;
+using OfetasWebAPI.ViewModels;
 
 namespace OfetasWebAPI.Controllers
 {
@@ -46,8 +47,30 @@ namespace OfetasWebAPI.Controllers
             
             return await _context.Produtos.ToListAsync();
         }
+        [Authorize(Roles = "2, 3")]
+        [HttpGet("Minhas")]
+        public async Task<ActionResult<IEnumerable<Produto>>> MeusProdutos(int id)
+        {
+            return await _context.Produtos.Include(c => c.IdFornecedorNavigation).Include(c => c.IdCategoriaNavigation).Where(p => p.IdFornecedor == id).ToListAsync();
+        }
 
-        
+        [HttpGet("SemReservas")]
+        public async Task<ActionResult<IEnumerable<Produto>>> ListarProdutoNaoReservados()
+        {
+            var produto = await _context.Produtos.ToListAsync();
+
+            foreach (var item in produto)
+            {
+                DeletaProdutoVencido(item);
+            }
+
+            var novalista = FiltroDeReservas(produto);
+
+            return novalista.ToList();
+            
+        }
+
+
         [HttpPatch("{id}")]
         public async Task<ActionResult<Produto>> AlterarPreco(int id)
         {
@@ -150,6 +173,28 @@ namespace OfetasWebAPI.Controllers
                 }
             }
             
+        }
+
+        private List<Produto> FiltroDeReservas(List<Produto> p)
+        {
+            var reservas = _context.Reservas.ToList();
+
+            List<Produto> Listasemrese = new();
+
+            foreach (var item in reservas)
+            {
+                foreach (var prod in p)
+                {
+                    if (item.IdProduto != prod.IdProduto)
+                    {
+                        Listasemrese.Add(prod);
+                    }
+                }
+                
+            }
+
+            return Listasemrese;     
+
         }
 
         private void MetodoDesconta(Produto p)

@@ -27,6 +27,21 @@ namespace OfetasWebAPI.Controllers
         {
             return await _context.Consumidors.ToListAsync();
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Consumidor>> GetConsumidor(int id)
+        {
+            var consumidor = await _context.Consumidors.FindAsync(id);
+
+            if (consumidor == null)
+            {
+                return NotFound();
+            }
+
+            return consumidor;
+        }
+
+
         [Authorize(Roles = "1,2")]
         [HttpPut]
         public async Task<ActionResult<Consumidor>> PutConsumidor(int id, Consumidor cAtualizar)
