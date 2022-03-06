@@ -61,6 +61,9 @@ idProduto int foreign key references Produto(idProduto)
 );
 go
 
+ALTER TABLE Usuario
+ALTER COLUMN senha VARCHAR(100);
+
 /*drop table Reservas;
 drop table Produto;
 drop table Consumidor;
