@@ -29,19 +29,21 @@ export default function Home() {
     let history = useNavigate();
 
     function ListarProdutos() {
-        axios('http://localhost:5000/api/Produto')
+        axios('http://localhost:5000/api/Produto/SemReservas')
             .then(resposta => {
                 if (resposta.status === 200) {
                     console.log(resposta.data);
                     setListaProdutos(resposta.data);
                     console.log(listaProdutos);
+                    if (listaProdutos.length < 1) {
+                        alert("Desculpe, todas as ofertas já estão reservadas :(");
+                    }
                 }
             })
             .catch(erro => console.log(erro))
     }
 
     function ReservarProduto(produto) {
-
         if (usuarioAutenticado() && parseJwt().role === '2') {
             setReservando(true);
             axios('http://localhost:5000/api/Consumidor')
@@ -92,11 +94,13 @@ export default function Home() {
                     return (
                         <div className="cadaProdutoListado_Home" key={produto.idProduto}>
                             <div className="imgProduto_Home">
-
+                                <img src={"http://localhost:5000/img/" + produto.imagemProduto} alt="" />
                             </div>
                             <div className="dadosProdutos_Home">
                                 <div className="dadosProduto_Home">
                                     <p>{produto.nomeProduto}</p>
+                                    <p>Fornecedor: {produto.idFornecedorNavigation.nome}</p>
+                                    <span className="nomeCategoria">{produto.idCategoriaNavigation.nomeCategoria}</span>
                                 </div>
                                 <div className="areaPrecoLevar_Home">
                                     <span className="preco_home" >R$ {produto.preco}</span>
@@ -105,8 +109,8 @@ export default function Home() {
                             </div>
                             <div className="areaValidade">
                                 <span>Vence em {Intl.DateTimeFormat("pt-br", {
-                                     year: 'numeric', month: 'numeric', day: 'numeric',
-                                 }).format(new Date(produto.dataValidade))
+                                    year: 'numeric', month: 'numeric', day: 'numeric',
+                                }).format(new Date(produto.dataValidade))
                                 }</span>
                             </div>
                         </div>

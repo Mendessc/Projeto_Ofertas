@@ -10,8 +10,9 @@ import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import CadastroProduto from './Pages/CadastroProduto/CadastroProduto';
 import CadastroUsuario from './Pages/CadastroUsuário/CadastroUsuario';
+import Perfil from './Pages/Perfil/Perfil';
 
-const permissaoLogado = ({ component: Component }) => (
+const permissaoLogado = ({ element: Component }) => (
   <Route
     render={(props) =>
       usuarioAutenticado() ? (
@@ -40,8 +41,13 @@ render(
       <Route exact path='/' element={<Login />} />
       <Route path='/Home' element={<Home />} />
       <Route path='/Login' element={<Login />} />
-      <Route path='/CadastroProduto' element={<CadastroProduto />} />
+      {
+        usuarioAutenticado() && parseJwt().role === '3' ? <Route path='/CadastroProduto' element={<CadastroProduto />} /> : null
+      }
       <Route path='/CadastroUsuario' element={<CadastroUsuario />} />
+      {
+        usuarioAutenticado() && parseJwt().role === '2' ? <Route path='/Perfil' element={<Perfil />}/> : null
+      }
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

@@ -31,7 +31,7 @@ namespace OfetasWebAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Consumidor>> GetConsumidor(int id)
         {
-            var consumidor = await _context.Consumidors.FindAsync(id);
+            var consumidor = await _context.Consumidors.FirstOrDefaultAsync(c => c.IdUsuario == id);
 
             if (consumidor == null)
             {

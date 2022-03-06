@@ -9122,19 +9122,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\henri\\.nuget\\packages\\": {}
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ofertas\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\T-Gamer\\Desktop\\Ofertas3\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
       "projectName": "OfetasWebAPI",
-      "projectPath": "D:\\Ofertas\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
-      "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-      "outputPath": "D:\\Ofertas\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\obj\\",
+      "projectPath": "C:\\Users\\T-Gamer\\Desktop\\Ofertas3\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\OfetasWebAPI.csproj",
+      "packagesPath": "C:\\Users\\T-Gamer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\T-Gamer\\Desktop\\Ofertas3\\Projeto_Ofertas\\Back_End\\OfetasWebAPI\\OfetasWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\T-Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9217,7 +9217,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

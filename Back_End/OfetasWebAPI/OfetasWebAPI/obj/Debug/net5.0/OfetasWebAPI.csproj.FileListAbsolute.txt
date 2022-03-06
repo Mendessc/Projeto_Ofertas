@@ -1,438 +1,145 @@
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\appsettings.Development.json
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\appsettings.json
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.exe
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\StaticFiles\images\cf706cb8-2167-4195-8d6c-0fcee63c7d49.jpg
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.deps.json
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.runtimeconfig.json
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.runtimeconfig.dev.json
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.pdb
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.xml
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\BCrypt.Net-Next.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Humanizer.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.Convention.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.Hosting.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.Runtime.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.TypedParts.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.AssemblyReference.cache
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.GeneratedMSBuildEditorConfig.editorconfig
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.AssemblyInfoInputs.cache
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.AssemblyInfo.cs
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.CoreCompileInputs.cache
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.MvcApplicationPartsAssemblyInfo.cs
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.MvcApplicationPartsAssemblyInfo.cache
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\scopedcss\bundle\OfetasWebAPI.styles.css
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\staticwebassets\OfetasWebAPI.StaticWebAssets.Manifest.cache
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.RazorTargetAssemblyInfo.cache
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.CopyComplete
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\refint\OfetasWebAPI.dll
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.xml
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.pdb
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.genruntimeconfig.cache
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\ref\OfetasWebAPI.dll
-<<<<<<< HEAD
-=======
-D:\Ofertas\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\StaticFiles\images\cf706cb8-2167-4195-8d6c-0fcee63c7d49.jpg
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\appsettings.json
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.exe
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\StaticFiles\Images\cf706cb8-2167-4195-8d6c-0fcee63c7d49.jpg
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.deps.json
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.runtimeconfig.json
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.runtimeconfig.dev.json
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ref\OfetasWebAPI.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.pdb
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.xml
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\BCrypt.Net-Next.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Humanizer.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.Convention.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.Hosting.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.Runtime.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.TypedParts.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.AssemblyReference.cache
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.AssemblyInfoInputs.cache
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.AssemblyInfo.cs
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.CoreCompileInputs.cache
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\staticwebassets\OfetasWebAPI.StaticWebAssets.Manifest.cache
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\staticwebassets\OfetasWebAPI.StaticWebAssets.xml
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\scopedcss\bundle\OfetasWebAPI.styles.css
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.RazorTargetAssemblyInfo.cache
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.CopyComplete
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\ref\OfetasWebAPI.dll
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.xml
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.pdb
-C:\Users\lucas\OneDrive\Área de Trabalho\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.genruntimeconfig.cache
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\appsettings.json
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.exe
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\StaticFiles\Images\cf706cb8-2167-4195-8d6c-0fcee63c7d49.jpg
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.deps.json
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.runtimeconfig.json
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.runtimeconfig.dev.json
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ref\OfetasWebAPI.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.pdb
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.xml
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\BCrypt.Net-Next.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Humanizer.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.Convention.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.Hosting.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.Runtime.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.TypedParts.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.AssemblyReference.cache
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.AssemblyInfoInputs.cache
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.AssemblyInfo.cs
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.CoreCompileInputs.cache
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\staticwebassets\OfetasWebAPI.StaticWebAssets.Manifest.cache
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\staticwebassets\OfetasWebAPI.StaticWebAssets.xml
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\scopedcss\bundle\OfetasWebAPI.styles.css
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.RazorTargetAssemblyInfo.cache
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.CopyComplete
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\ref\OfetasWebAPI.dll
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.xml
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.pdb
-C:\Users\T-Gamer\Desktop\Ofertas2\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.genruntimeconfig.cache
->>>>>>> 9047b1a71d772edee71605314bbc65461caad039
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\appsettings.json
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.exe
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\StaticFiles\Images\cf706cb8-2167-4195-8d6c-0fcee63c7d49.jpg
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.deps.json
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.runtimeconfig.json
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.runtimeconfig.dev.json
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ref\OfetasWebAPI.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.pdb
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\OfetasWebAPI.xml
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Humanizer.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.AssemblyInfoInputs.cache
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.AssemblyInfo.cs
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\staticwebassets\OfetasWebAPI.StaticWebAssets.Manifest.cache
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\staticwebassets\OfetasWebAPI.StaticWebAssets.xml
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\scopedcss\bundle\OfetasWebAPI.styles.css
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.CopyComplete
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\ref\OfetasWebAPI.dll
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.xml
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.pdb
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.genruntimeconfig.cache
+C:\Users\T-Gamer\Desktop\Ofertas3\Projeto_Ofertas\Back_End\OfetasWebAPI\OfetasWebAPI\obj\Debug\net5.0\OfetasWebAPI.csproj.AssemblyReference.cache

@@ -11,15 +11,15 @@ export const Cabecalho = () => {
         <header className="container_header">
             <div className="div_header">
                 <div className="bloco_logo">
-                    <Link to="/">
+                    <Link to="/Home">
                         <img src={logo} alt="Logo do Site" />{' '}
                     </Link>
                 </div>
                 <div className="bloco_links">
-                    <Link to="/usuario">
+                    <Link to="/Perfil">
                         <img src={usuario} alt="Logo do Perfil" />{' '}
                     </Link>
-                    <Link to="/perfil">
+                    <Link to="/Perfil">
                         <img src={carrinho} alt="Carrinho" />{' '}
                     </Link>
                 </div>

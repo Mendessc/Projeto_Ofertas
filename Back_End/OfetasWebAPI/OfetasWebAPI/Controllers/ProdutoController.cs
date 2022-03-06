@@ -57,7 +57,7 @@ namespace OfetasWebAPI.Controllers
         [HttpGet("SemReservas")]
         public async Task<ActionResult<IEnumerable<Produto>>> ListarProdutoNaoReservados()
         {
-            var produto = await _context.Produtos.ToListAsync();
+            var produto = await _context.Produtos.Include(c => c.IdFornecedorNavigation).Include(c => c.IdCategoriaNavigation).ToListAsync();
 
             foreach (var item in produto)
             {
@@ -179,15 +179,15 @@ namespace OfetasWebAPI.Controllers
         {
             var reservas = _context.Reservas.ToList();
 
-            List<Produto> Listasemrese = new();
+            List<Produto> Listasemrese = _context.Produtos.ToList();
 
-            foreach (var item in reservas)
+            foreach (var prod in p)
             {
-                foreach (var prod in p)
+                foreach (var item in reservas)
                 {
-                    if (item.IdProduto != prod.IdProduto)
+                    if (item.IdProduto == prod.IdProduto)
                     {
-                        Listasemrese.Add(prod);
+                        Listasemrese.Remove(prod);
                     }
                 }
                 
