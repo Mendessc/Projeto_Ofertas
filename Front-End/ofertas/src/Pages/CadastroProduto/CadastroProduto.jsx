@@ -47,11 +47,11 @@ export default function Produto(){
         .then(resposta=>{
             if (resposta.status === 201) {
                 console.log('Produto Cadastrado');
-                setNomeProduto(''),
-                setIdCategoria(''),
-                setDataValidade(''),
-                setPreco(''),
-                setImagemProduto('')
+                setNomeProduto('');
+                setIdCategoria('');
+                setDataValidade('');
+                setPreco('');
+                setImagemProduto('');
             }
         })
         .catch(erro=>console.log(erro))
