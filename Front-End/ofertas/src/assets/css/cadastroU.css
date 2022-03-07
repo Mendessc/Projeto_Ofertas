@@ -1,0 +1,79 @@
+.div_cadastro{
+    height: 81vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_cad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 42vw;
+    height: 75vh;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); 
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.header_cad h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+ hr{
+    width:35vw;
+    border-color: #D81919;
+    border-width: thin;
+
+}
+
+.box_input{
+    margin-top: 70px;
+}
+
+.box_input input{
+    width: 35vw;
+    border-bottom-color: #D81919;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-width: thin;
+    background-color: transparent;
+    padding: 8px 20px;
+}
+.box_input select{
+    border-bottom-color: #D81919;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 35vw;
+    background-color: transparent;
+    padding: 8px 20px;
+}
+
+.box_botao{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 45px;
+}
+
+.botao_cad{
+    background-color: #FF4242;
+    color: #ffff;
+    border-radius: 8px;
+    width: 12vw;
+    height: 7vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:inherit;
+    font-size: 18px;
+    border-color: #ffff;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.botao_cad:hover{
+    background:linear-gradient(to bottom, #fc2424 5%, #fc5d5d 100%);
+}
