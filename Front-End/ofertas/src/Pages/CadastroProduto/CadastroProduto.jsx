@@ -97,10 +97,10 @@ export default function Produto() {
         <>
             <Cabecalho />
             <main className="ContainerMain">
-                <form className="form-login" onSubmit={cadastrarProdutos}>
+                <form className="form-produto" onSubmit={cadastrarProdutos}>
                     <h2 className="Titulo-login">Cadastrar Produto</h2>
                     <input
-                        className="input-login"
+                        className="input-produto"
                         type="text"
                         name="nomeProduto"
                         id="nomeProduto"
@@ -110,7 +110,7 @@ export default function Produto() {
                     />
 
                     <input
-                        className="input-login"
+                        className="input-produto"
                         type="text"
                         name="descProduto"
                         id="descProduto"
@@ -120,7 +120,7 @@ export default function Produto() {
                     />
 
                     <select
-                        className="input-login select-selected"
+                        className="input-produto select-selected"
                         name="categoria"
                         id="categoria"
                         value={idCategoria}
@@ -137,7 +137,7 @@ export default function Produto() {
                     </select>
 
                     <input
-                        className="input-login"
+                        className="input-produto"
                         type="date"
                         name="dataValidade"
                         id="dataValidade"
@@ -147,7 +147,7 @@ export default function Produto() {
                     />
 
                     <input
-                        className="input-login"
+                        className="input-produto"
                         type="number"
                         name="preco"
                         id="preco"
@@ -158,7 +158,7 @@ export default function Produto() {
                     
                     <span className="label-cadastroProd">Selecionar Foto</span>
                         <input
-                            className="input-login inputImage-cadastroProd"
+                            className="input-produto inputImage-cadastroProd"
                             type="file"
                             name="arquivo"
                             id="arquivo"

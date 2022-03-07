@@ -59,7 +59,10 @@ export default class Login extends Component {
                 <main>
                     <div className="ContainerMain">
                         <form onSubmit={this.efetualogin} className="form-login">
+                            <div className="box_login">
                             <span  className="Titulo-login"> Login</span>
+                            <hr className="hr_login" />
+                            </div>
                             <input className="input-login" placeholder="Email" value={this.state.email} onChange={this.atualizaStateCampo} name="email" type="email" id="login_email" />
                             <input className="input-login"placeholder="Senha" value={this.state.senha} onChange={this.atualizaStateCampo} name="senha" type="password" id="login_senha" />
                             <div className="botao-login">

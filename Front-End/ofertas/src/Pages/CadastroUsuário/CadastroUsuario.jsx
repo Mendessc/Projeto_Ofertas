@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Cabecalho from "../../Components/header";
 import Rodape from "../../Components/footer";
 import '../../assets/css/cadastroU.css';
+import '../../assets/css/estilo.css';
 
 export default function Usuario() {
 
@@ -62,15 +63,15 @@ export default function Usuario() {
                     <hr />
                     <form onSubmit={Cadastrar}>
                         <div className="box_input">
-                            <select className="select_id"
+                            <select className="select_id select-selected"
                                 name="tipo"
                                 id="tipo"
                                 value={idTipoUsuario}
                                 onChange={(campo) => setIdTipoUsuario(campo.target.value)}
                             >
-                                <option value="0">Selecione o tipo da Conta</option>
-                                <option value="2">Consumidor</option>
-                                <option value="3">Fornecedor</option>
+                                <option className="select-items" value="0">Selecione o tipo da Conta</option>
+                                <option className="select-items" value="2">Consumidor</option>
+                                <option className="select-items" value="3">Fornecedor</option>
                             </select>
                         </div>
                         <div className="box_input">
