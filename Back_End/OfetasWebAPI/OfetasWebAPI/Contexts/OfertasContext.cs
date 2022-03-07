@@ -39,6 +39,7 @@ namespace OfetasWebAPI.Contexts
                 optionsBuilder.UseSqlServer//("Data Source=NOTE0111E6\\SQLEXPRESS; initial catalog=Ofertas; user Id=sa; pwd=Senai@132;");
                                            ("Data Source=DESKTOP-PVCFVR0\\SQLEXPRESS; initial catalog=Ofertas; user Id=sa; pwd=senai@132;");
                     //("Data Source=DESKTOP-KINHA\\SQLEXPRESS; initial catalog=Ofertas; user Id=sa; pwd=151917;");
+
             }
         }
 

@@ -37,12 +37,16 @@ export default function Home() {
                     setListaProdutos(resposta.data);
                     console.log(listaProdutos);
                     
-                    if (listaProdutos.length < 1) {
+                    if (listaProdutos = null) {
                         alert("Desculpe, todas as ofertas já estão reservadas :(");
                     }
                 }
             })
             .catch(erro => console.log(erro))
+    }
+
+    function MsgLista() {
+        
     }
 
     function ReservarProduto(produto) {
@@ -84,8 +88,8 @@ export default function Home() {
         }
     }
 
-    setTimeout(ListarProdutos, 1000);
-    // useEffect(ListarProdutos, []);
+    //setTimeout(ListarProdutos, 1000);
+     useEffect(ListarProdutos, []);
 
     return (
 
