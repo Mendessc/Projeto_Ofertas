@@ -15,7 +15,7 @@ export default function Usuario(){
     function listarTipoUsuario(){
         axios('http://localhost:5000/api/TiposUsuarios',{
             headers:{
-                'Authorization': 'Bearer' + localStorage.getItem('usuario-login')
+                'Authorization': 'Bearer ' + localStorage.getItem('usuario-login')
             }
         })
     .then(resposta=>{

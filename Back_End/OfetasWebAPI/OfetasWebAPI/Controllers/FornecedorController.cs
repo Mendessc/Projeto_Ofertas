@@ -31,7 +31,7 @@ namespace OfetasWebAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Fornecedor>> GetConsumidor(int id)
         {
-            var fornecedor = await _context.Fornecedors.FindAsync(id);
+            var fornecedor = await _context.Fornecedors.FirstOrDefaultAsync(p => p.IdUsuario == id);
 
             if (fornecedor == null)
             {

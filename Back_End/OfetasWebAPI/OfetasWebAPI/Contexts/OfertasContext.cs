@@ -37,11 +37,7 @@ namespace OfetasWebAPI.Contexts
 
                 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
                 optionsBuilder.UseSqlServer//("Data Source=NOTE0111E6\\SQLEXPRESS; initial catalog=Ofertas; user Id=sa; pwd=Senai@132;");
-<<<<<<< HEAD
-                                           ("Data Source=DESKTOP-EJ47PRO\\SQLEXPRESS; initial catalog=Ofertas; user Id=sa; pwd=senai@132;");
-=======
                                            ("Data Source=DESKTOP-PVCFVR0\\SQLEXPRESS; initial catalog=Ofertas; user Id=sa; pwd=senai@132;");
->>>>>>> cccb175ae68b0a7e77aff6b74368b593a351e6d4
                     //("Data Source=DESKTOP-KINHA\\SQLEXPRESS; initial catalog=Ofertas; user Id=sa; pwd=151917;");
             }
         }

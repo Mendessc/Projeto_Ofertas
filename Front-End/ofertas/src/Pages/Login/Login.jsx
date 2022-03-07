@@ -55,17 +55,23 @@ export default class Login extends Component {
             <>
                 <Cabecalho />
                 <main>
-                    <form onSubmit={this.efetualogin} className="form-login">
-                        <span className="texto-email">Digite seu Email</span>
-                        <input className="input-login" value={this.state.email} onChange={this.atualizaStateCampo} name="email" type="email" id="login_email" />
-                        <span className="texto-senha">Digite sua Senha</span>
-                        <input className="input-login" value={this.state.senha} onChange={this.atualizaStateCampo} name="senha" type="password" id="login_senha" />
-                        <div className="botao-login">
-                            <button type='submit' className="btn-login" id="btn_login">
-                                Entrar
-                            </button>
-                        </div>
-                    </form>
+                    <div className="ContainerMain">
+                        <form onSubmit={this.efetualogin} className="form-login">
+                            <span  className="Titulo-login"> Login</span>
+                            <input className="input-login" placeholder="Email" value={this.state.email} onChange={this.atualizaStateCampo} name="email" type="email" id="login_email" />
+                            <input className="input-login"placeholder="Senha" value={this.state.senha} onChange={this.atualizaStateCampo} name="senha" type="password" id="login_senha" />
+                            <div className="botao-login">
+                                <button type='submit' className="btn-login" id="btn_login">
+                                    Entrar
+                                </button>
+                            </div>
+
+                            <div className="botaoCadastro-login">
+                                <Link className="btnCadastrar-login " to="/CadastroUsuario">Criar Conta</Link>
+                            </div>
+                            
+                        </form>
+                    </div>
                 </main>
                 <Rodape />
             </>

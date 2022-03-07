@@ -28,13 +28,15 @@ export default function Home() {
 
     let history = useNavigate();
 
-    function ListarProdutos() {
+     function ListarProdutos() {
+
         axios('http://localhost:5000/api/Produto/SemReservas')
             .then(resposta => {
                 if (resposta.status === 200) {
                     console.log(resposta.data);
                     setListaProdutos(resposta.data);
                     console.log(listaProdutos);
+                    
                     if (listaProdutos.length < 1) {
                         alert("Desculpe, todas as ofertas já estão reservadas :(");
                     }
@@ -82,7 +84,8 @@ export default function Home() {
         }
     }
 
-    useEffect(ListarProdutos, []);
+    setTimeout(ListarProdutos, 1000);
+    // useEffect(ListarProdutos, []);
 
     return (
 
